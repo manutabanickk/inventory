@@ -1,0 +1,56 @@
+<?php
+
+spl_autoload_register(function ($className) {
+    $model = "../../model/" . $className . "_model.php";
+    $controller = "../../controller/" . $className . "_controller.php";
+
+    if (file_exists($model)) {
+        require_once($model);
+    }
+
+    if (file_exists($controller)) {
+        require_once($controller);
+    }
+});
+	$funcion = new Tecnico();
+
+	if(isset($_POST['tecnico'])){
+
+		try {
+
+			$proceso = $_POST['proceso'];
+			$id = $_POST['id'];
+			$tecnico = trim($_POST['tecnico']);
+			$telefono = trim($_POST['telefono']);
+			$estado = trim($_POST['estado']);
+
+
+			switch($proceso){
+
+			case 'Registro':
+				$funcion->Insertar_Tecnico($tecnico,$telefono);
+			break;
+
+			case 'Edicion':
+				$funcion->Editar_Tecnico($id,$tecnico,$telefono,$estado);
+			break;
+
+			default:
+				$data = "Error";
+ 	   		 	echo json_encode($data);
+			break;
+		}
+
+		} catch (Exception $e) {
+
+			$data = "Error";
+ 	   		echo json_encode($data);
+		}
+
+	}
+
+
+
+
+
+?>
