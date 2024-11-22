@@ -1,59 +1,93 @@
 <?php
-// Iniciar sesión
-session_start();
 
-// Usar spl_autoload_register en lugar de __autoload
-spl_autoload_register(function ($className) {
-    $modelPath = "../../model/" . $className . "_model.php";
-    $controllerPath = "../../controller/" . $className . "_controller.php";
+require_once __DIR__ . '/../../logger.php'; // Importa el logger global
 
-    if (file_exists($modelPath)) {
-        require_once($modelPath);
+// Instancia del logger global
+$logger = AppLogger::getLogger();
+
+// Autoload para cargar modelos y controladores
+spl_autoload_register(function ($className) use ($logger) {
+    $model = "../../model/" . $className . "_model.php";
+    $controller = "../../controller/" . $className . "_controller.php";
+
+    if (file_exists($model)) {
+        require_once($model);
+        $logger->info("Modelo cargado: $className");
+    } else {
+        $logger->error("El archivo del modelo no existe.", ['file' => $model]);
+        die(json_encode(["error" => "El archivo del modelo no existe."]));
     }
-    if (file_exists($controllerPath)) {
-        require_once($controllerPath);
+
+    if (file_exists($controller)) {
+        require_once($controller);
+        $logger->info("Controlador cargado: $className");
+    } else {
+        $logger->error("El archivo del controlador no existe.", ['file' => $controller]);
+        die(json_encode(["error" => "El archivo del controlador no existe."]));
     }
 });
 
-$funcion = new Parametro();
+try {
+    $funcion = new Parametro();
+    $logger->info("Instancia de la clase Parametro creada.");
+} catch (Exception $e) {
+    $logger->error("Error al instanciar la clase Parametro: " . $e->getMessage(), [
+        'file' => $e->getFile(),
+        'line' => $e->getLine(),
+        'trace' => $e->getTraceAsString(),
+    ]);
+    die(json_encode(["error" => "Error interno al inicializar el sistema."]));
+}
 
-// Manejar las solicitudes GET
+// Manejo de solicitudes GET
 if (!empty($_GET)) {
-    $criterio = isset($_GET['criterio']) ? trim($_GET['criterio']) : '';
+    $criterio = isset($_GET['criterio']) ? $_GET['criterio'] : '';
+    $logger->info("Solicitud GET recibida.", ['criterio' => $criterio]);
 
     try {
-        if ($criterio === "moneda") {
-            $result = $funcion->Ver_Moneda();
-            echo json_encode($result);
-        } elseif ($criterio === "iva") {
-            $result = $funcion->Ver_Impuesto();
-            echo json_encode($result);
+        if ($criterio == "moneda") {
+            $logger->info("Verificando moneda.");
+            $funcion->Ver_Moneda();
+
+        } else if ($criterio == "iva") {
+            $logger->info("Verificando IVA.");
+            $funcion->Ver_Impuesto();
+
         } else {
-            echo json_encode(['error' => 'Criterio no válido.']);
+            $logger->warning("Criterio no reconocido.", ['criterio' => $criterio]);
+            echo json_encode(["error" => "Criterio no reconocido."]);
         }
     } catch (Exception $e) {
-        echo json_encode(['error' => 'Error: ' . $e->getMessage()]);
+        $logger->error("Error en la solicitud GET: " . $e->getMessage(), [
+            'file' => $e->getFile(),
+            'line' => $e->getLine(),
+            'trace' => $e->getTraceAsString(),
+        ]);
+        echo json_encode(["error" => "Error al procesar la solicitud GET."]);
     }
 }
 
-// Manejar las solicitudes POST
+// Manejo de solicitudes POST
 if (!empty($_POST)) {
     if (isset($_POST['nombre_empresa'])) {
         try {
-            $proceso = isset($_POST['proceso']) ? trim($_POST['proceso']) : '';
-            $id = isset($_POST['id']) ? trim($_POST['id']) : null;
-            $nombre_empresa = isset($_POST['nombre_empresa']) ? trim($_POST['nombre_empresa']) : '';
-            $propietario = isset($_POST['propietario']) ? trim($_POST['propietario']) : '';
-            $numero_nit = isset($_POST['numero_nit']) ? str_replace("-", "", trim($_POST['numero_nit'])) : '';
-            $numero_nrc = isset($_POST['numero_nrc']) ? trim($_POST['numero_nrc']) : '';
-            $porcentaje_iva = isset($_POST['porcentaje_iva']) ? trim($_POST['porcentaje_iva']) : '';
-            $porcentaje_retencion = isset($_POST['porcentaje_retencion']) ? trim($_POST['porcentaje_retencion']) : '';
-            $monto_retencion = isset($_POST['monto_retencion']) ? trim($_POST['monto_retencion']) : '';
-            $direccion_empresa = isset($_POST['direccion_empresa']) ? trim($_POST['direccion_empresa']) : '';
-            $idcurrency = isset($_POST['idcurrency']) ? trim($_POST['idcurrency']) : '';
+            $logger->info("Solicitud POST recibida.", ['data' => $_POST]);
+
+            $proceso = $_POST['proceso'];
+            $id = $_POST['id'];
+            $nombre_empresa = trim($_POST['nombre_empresa']);
+            $propietario = trim($_POST['propietario']);
+            $numero_nit = str_replace("-", "", trim($_POST['numero_nit']));
+            $numero_nrc = trim($_POST['numero_nrc']);
+            $porcentaje_iva = trim($_POST['porcentaje_iva']);
+            $porcentaje_retencion = trim($_POST['porcentaje_retencion']);
+            $monto_retencion = trim($_POST['monto_retencion']);
+            $direccion_empresa = trim($_POST['direccion_empresa']);
+            $idcurrency = trim($_POST['idcurrency']);
 
             switch ($proceso) {
                 case 'Registro':
+                    $logger->info("Iniciando registro de parámetro.", ['nombre_empresa' => $nombre_empresa]);
                     $funcion->Insertar_Parametro(
                         $nombre_empresa,
                         $propietario,
@@ -65,10 +99,11 @@ if (!empty($_POST)) {
                         $direccion_empresa,
                         $idcurrency
                     );
-                    echo json_encode(['success' => 'Registro realizado con éxito.']);
+                    echo json_encode(["status" => "success", "message" => "Parámetro registrado correctamente."]);
                     break;
 
                 case 'Edicion':
+                    $logger->info("Iniciando edición de parámetro.", ['id' => $id]);
                     $funcion->Editar_Parametro(
                         $id,
                         $nombre_empresa,
@@ -81,16 +116,26 @@ if (!empty($_POST)) {
                         $direccion_empresa,
                         $idcurrency
                     );
-                    echo json_encode(['success' => 'Edición realizada con éxito.']);
+                    echo json_encode(["status" => "success", "message" => "Parámetro editado correctamente."]);
                     break;
 
                 default:
-                    echo json_encode(['error' => 'Proceso no válido.']);
+                    $logger->warning("Proceso no reconocido.", ['proceso' => $proceso]);
+                    echo json_encode(["error" => "Proceso no reconocido."]);
                     break;
             }
         } catch (Exception $e) {
-            echo json_encode(['error' => 'Error: ' . $e->getMessage()]);
+            $logger->error("Error en la solicitud POST: " . $e->getMessage(), [
+                'file' => $e->getFile(),
+                'line' => $e->getLine(),
+                'trace' => $e->getTraceAsString(),
+            ]);
+            echo json_encode(["error" => "Error al procesar la solicitud POST."]);
         }
+    } else {
+        $logger->warning("Solicitud POST no válida: Falta el parámetro 'nombre_empresa'.");
+        echo json_encode(["error" => "Solicitud no válida."]);
     }
 }
+
 ?>

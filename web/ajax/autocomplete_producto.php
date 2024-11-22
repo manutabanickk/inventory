@@ -1,45 +1,57 @@
-<?php
-// Registro de una función de autoload para cargar automáticamente clases requeridas
-spl_autoload_register(function ($className) {
+<?php 
+
+require_once __DIR__ . '/../../logger.php'; // Importa el logger global
+
+// Instancia del logger global
+$logger = AppLogger::getLogger();
+
+// Autoload para cargar modelos y controladores
+spl_autoload_register(function ($className) use ($logger) {
     $model = "../../model/" . $className . "_model.php";
     $controller = "../../controller/" . $className . "_controller.php";
 
     if (file_exists($model)) {
         require_once($model);
+        $logger->info("Modelo cargado: $className");
     } else {
-        die("Error: El archivo del modelo $model no existe.");
+        $logger->error("El archivo del modelo no existe.", ['file' => $model]);
+        die(json_encode(["error" => "El archivo del modelo no existe."]));
     }
 
     if (file_exists($controller)) {
         require_once($controller);
+        $logger->info("Controlador cargado: $className");
     } else {
-        die("Error: El archivo del controlador $controller no existe.");
+        $logger->error("El archivo del controlador no existe.", ['file' => $controller]);
+        die(json_encode(["error" => "El archivo del controlador no existe."]));
     }
 });
 
-// Verificar que se haya recibido el término de búsqueda
-if (isset($_REQUEST['term']) && !empty(trim($_REQUEST['term']))) {
-    $keyword = trim($_REQUEST['term']); // Eliminar espacios en blanco adicionales
+try {
+    // Instanciar la clase Producto
+    $funcion = new Producto();
+    $logger->info("Instancia de la clase Producto creada.");
 
-    try {
-        // Crear una instancia de la clase Producto
-        $funcion = new Producto();
+    // Obtener el término de búsqueda
+    $keyword = isset($_REQUEST['term']) ? trim($_REQUEST['term']) : '';
 
-        // Llamar al método Autocomplete_Producto y obtener los resultados
-        $resultados = $funcion->Autocomplete_Producto($keyword);
-
-        // Verificar si se obtuvieron resultados
-        if (!empty($resultados)) {
-            echo json_encode($resultados); // Devolver resultados en formato JSON
-        } else {
-            echo json_encode(["message" => "No se encontraron coincidencias."]);
-        }
-    } catch (Exception $e) {
-        // Manejar cualquier error durante la ejecución
-        echo json_encode(["error" => "Se produjo un error: " . $e->getMessage()]);
+    if (empty($keyword)) {
+        $logger->warning("El término de búsqueda está vacío.");
+        die(json_encode(["error" => "El término de búsqueda no puede estar vacío."]));
     }
-} else {
-    // Si no se recibió el término de búsqueda
-    echo json_encode(["error" => "No se proporcionó un término de búsqueda válido."]);
+
+    $logger->info("Término de búsqueda recibido.", ['term' => $keyword]);
+
+    // Llamar al método de autocompletado
+    $funcion->Autocomplete_Producto($keyword);
+
+} catch (Exception $e) {
+    $logger->error("Error en autocomplete_producto.php: " . $e->getMessage(), [
+        'file' => $e->getFile(),
+        'line' => $e->getLine(),
+        'trace' => $e->getTraceAsString(),
+    ]);
+    die(json_encode(["error" => "Error interno al procesar la solicitud."]));
 }
+
 ?>

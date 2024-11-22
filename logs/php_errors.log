@@ -1,0 +1,3 @@
+
+[2024-11-21T20:12:08.922354+01:00] php_errors.WARNING: Error de PHP: Undefined array key "REQUEST_METHOD" {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":25} {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\logger.php","line":67,"class":"AppLogger","callType":"::","function":"{closure}"}
+[2024-11-21T20:12:08.923505+01:00] php_errors.WARNING: Error de PHP: Undefined array key "REQUEST_METHOD" {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":132} {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\logger.php","line":67,"class":"AppLogger","callType":"::","function":"{closure}"}
