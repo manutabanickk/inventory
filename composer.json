@@ -1,6 +1,7 @@
 {
     "require": {
         "monolog/monolog": "^3.8",
-        "endroid/qr-code": "^6.0"
+        "endroid/qr-code": "^6.0",
+        "chillerlan/php-qrcode": "^5.0"
     }
 }

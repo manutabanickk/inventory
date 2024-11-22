@@ -1,6 +1,13 @@
 <?php
 	require('ClassTicket.php');
+
 	require_once __DIR__ . '/../controller/Venta_controller.php';
+	require_once __DIR__ . '/../vendor/autoload.php';
+
+	use chillerlan\QRCode\QRCode;
+	use chillerlan\QRCode\QROptions;
+	use chillerlan\QRCode\Common\EccLevel;
+	use chillerlan\QRCode\Output\QROutputInterface;
 
 	$idventa =  base64_decode(isset($_GET['venta']) ? $_GET['venta'] : '');
 	try
@@ -161,12 +168,32 @@
 					$pdf->SetFont('Arial','B',8.5);
 				endif;
 
-				$pdf->Image('http://chart.googleapis.com/chart?chs=120x120&cht=qr&chl='.$numero_venta.'&.png',22,$get_Y+54);
-				$pdf->SetFont('Arial','B',8.5);
-				$pdf->Text(18, $get_Y+88, 'GRACIAS POR SU COMPRA');
-				$pdf->SetFillColor(0,0,0);
-			//	$pdf->Code39(9,$get_Y+64,$numero_venta,1,5);
-		//		$pdf->Text(28, $get_Y+74, '*'.$numero_venta.'*');
+				$options = new QROptions([
+					'eccLevel' => EccLevel::H, // Nivel de corrección de errores (Alto)
+					'outputType' => QROutputInterface::GDIMAGE_PNG, // Salida en PNG
+					'scale' => 10, // Tamaño del QR
+				]);
+				
+				// Contenido dinámico del QR
+				$data = $numero_venta; // Cambia esto según tu sistema
+				
+				// Ruta para guardar el archivo temporal
+				$qrImagePath = __DIR__ . '/../temp/qr_code.png';
+				if (!is_dir(__DIR__ . '/../temp')) {
+					mkdir(__DIR__ . '/../temp', 0755, true);
+				}
+				
+				// Generar el código QR
+				$qrcode = new QRCode($options);
+				$qrcode->render($data, $qrImagePath);
+				
+				// Insertar el QR en el PDF
+				$pdf->Image($qrImagePath, 22, $get_Y + 54, 40, 40);
+				
+				// Eliminar archivo temporal después de usarlo
+				if (file_exists($qrImagePath)) {
+					unlink($qrImagePath);
+				}
 
 			} else if ($tipo_pago == 'TARJETA'){
 
