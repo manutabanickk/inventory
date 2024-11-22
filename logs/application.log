@@ -1,80 +1,423 @@
-[2024-11-22 02:21:51] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-22 02:21:51] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-22 02:21:51] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
-[2024-11-22 02:21:56] INFO: Modelo cargado: Parametro 
-[2024-11-22 02:21:56] INFO: Controlador cargado: Parametro 
-[2024-11-22 02:21:56] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 02:21:56] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 02:21:56] INFO: Verificando moneda. 
-[2024-11-22 02:22:16] INFO: Modelo cargado: Parametro 
-[2024-11-22 02:22:16] INFO: Controlador cargado: Parametro 
-[2024-11-22 02:22:16] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 02:22:16] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 02:22:16] INFO: Verificando moneda. 
-[2024-11-22 02:22:16] INFO: Modelo cargado: Parametro 
-[2024-11-22 02:22:16] INFO: Controlador cargado: Parametro 
-[2024-11-22 02:22:16] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 02:22:16] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-22 02:22:16] INFO: Verificando IVA. 
-[2024-11-22 02:22:39] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-22 02:22:39] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-22 02:22:39] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
-[2024-11-22 02:22:41] INFO: Modelo cargado: Parametro 
-[2024-11-22 02:22:41] INFO: Controlador cargado: Parametro 
-[2024-11-22 02:22:41] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 02:22:41] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 02:22:41] INFO: Verificando moneda. 
-[2024-11-22 02:25:24] INFO: Modelo cargado: Parametro 
-[2024-11-22 02:25:24] INFO: Controlador cargado: Parametro 
-[2024-11-22 02:25:24] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 02:25:24] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 02:25:24] INFO: Verificando moneda. 
-[2024-11-22 02:25:24] INFO: Modelo cargado: Parametro 
-[2024-11-22 02:25:24] INFO: Controlador cargado: Parametro 
-[2024-11-22 02:25:24] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 02:25:24] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-22 02:25:24] INFO: Verificando IVA. 
-[2024-11-22 02:35:31] WARNING: Error de PHP: Undefined variable $pdf {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629}
-[2024-11-22 02:35:31] CRITICAL: Excepción no controlada: Call to a member function Text() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629,"trace":"#0 {main}"}
-[2024-11-22 02:35:43] WARNING: Error de PHP: Undefined variable $pdf {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629}
-[2024-11-22 02:35:43] CRITICAL: Excepción no controlada: Call to a member function Text() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629,"trace":"#0 {main}"}
-[2024-11-22 02:36:07] WARNING: Error de PHP: Undefined variable $pdf {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629}
-[2024-11-22 02:36:07] CRITICAL: Excepción no controlada: Call to a member function Text() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629,"trace":"#0 {main}"}
-[2024-11-22 02:36:08] WARNING: Error de PHP: Undefined variable $pdf {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629}
-[2024-11-22 02:36:08] CRITICAL: Excepción no controlada: Call to a member function Text() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\reportes\\Factura.php","line":629,"trace":"#0 {main}"}
-[2024-11-22 03:14:28] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-22 03:14:28] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-22 03:14:28] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
-[2024-11-22 03:14:30] INFO: Modelo cargado: Parametro 
-[2024-11-22 03:14:30] INFO: Controlador cargado: Parametro 
-[2024-11-22 03:14:30] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 03:14:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 03:14:30] INFO: Verificando moneda. 
-[2024-11-22 03:17:54] INFO: Modelo cargado: Parametro 
-[2024-11-22 03:17:54] INFO: Controlador cargado: Parametro 
-[2024-11-22 03:17:54] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 03:17:54] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 03:17:54] INFO: Verificando moneda. 
-[2024-11-22 03:17:54] INFO: Modelo cargado: Parametro 
-[2024-11-22 03:17:54] INFO: Controlador cargado: Parametro 
-[2024-11-22 03:17:54] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 03:17:54] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-22 03:17:54] INFO: Verificando IVA. 
-[2024-11-22 03:17:55] INFO: Modelo cargado: Parametro 
-[2024-11-22 03:17:55] INFO: Controlador cargado: Parametro 
-[2024-11-22 03:17:55] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 03:17:55] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 03:17:55] INFO: Verificando moneda. 
-[2024-11-22 03:17:55] INFO: Modelo cargado: Parametro 
-[2024-11-22 03:17:55] INFO: Controlador cargado: Parametro 
-[2024-11-22 03:17:55] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 03:17:55] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-22 03:17:55] INFO: Verificando IVA. 
-[2024-11-22 03:18:19] INFO: Inicio de la conversión de número a letras {"numero":"6705.00","femenino":false,"decimales":true}
-[2024-11-22 03:18:19] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-22 03:18:19] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil setecientos cinco 00/100"}
-[2024-11-22 03:18:20] INFO: Modelo cargado: Parametro 
-[2024-11-22 03:18:20] INFO: Controlador cargado: Parametro 
-[2024-11-22 03:18:20] INFO: Instancia de la clase Parametro creada. 
-[2024-11-22 03:18:20] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-22 03:18:20] INFO: Verificando moneda. 
+[2024-11-22 12:14:22] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:22] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:22] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:22] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:14:22] INFO: Verificando moneda. 
+[2024-11-22 12:14:25] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:25] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:25] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:25] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:14:25] INFO: Verificando moneda. 
+[2024-11-22 12:14:25] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:25] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:25] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:25] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:14:25] INFO: Verificando IVA. 
+[2024-11-22 12:14:39] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:39] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:39] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:39] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:14:39] INFO: Verificando moneda. 
+[2024-11-22 12:14:39] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:39] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:39] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:39] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:14:39] INFO: Verificando IVA. 
+[2024-11-22 12:14:54] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:54] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:54] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:54] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:14:54] INFO: Verificando moneda. 
+[2024-11-22 12:14:56] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:56] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:56] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:56] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:14:56] INFO: Verificando moneda. 
+[2024-11-22 12:14:57] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:14:57] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:14:57] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:14:57] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:14:57] INFO: Verificando IVA. 
+[2024-11-22 12:15:05] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:15:05] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:15:05] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:15:05] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:15:05] INFO: Verificando moneda. 
+[2024-11-22 12:15:05] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:15:05] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:15:05] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:15:05] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:15:05] INFO: Verificando IVA. 
+[2024-11-22 12:19:27] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:19:27] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:19:27] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:19:27] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:19:27] INFO: Verificando moneda. 
+[2024-11-22 12:19:29] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:19:29] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:19:29] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:19:29] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:19:29] INFO: Verificando moneda. 
+[2024-11-22 12:19:29] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:19:29] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:19:29] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:19:29] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:19:29] INFO: Verificando IVA. 
+[2024-11-22 12:38:08] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:08] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:08] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:08] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:38:08] INFO: Verificando moneda. 
+[2024-11-22 12:38:14] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:14] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:14] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:14] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:38:14] INFO: Verificando moneda. 
+[2024-11-22 12:38:14] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:14] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:14] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:14] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:38:14] INFO: Verificando IVA. 
+[2024-11-22 12:38:20] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:20] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:20] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:20] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:38:20] INFO: Verificando moneda. 
+[2024-11-22 12:38:20] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:20] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:20] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:20] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:38:20] INFO: Verificando IVA. 
+[2024-11-22 12:38:21] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:21] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:21] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:21] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:38:21] INFO: Verificando moneda. 
+[2024-11-22 12:38:21] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:21] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:21] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:21] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:38:21] INFO: Verificando IVA. 
+[2024-11-22 12:38:24] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:24] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:24] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:24] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:38:24] INFO: Verificando moneda. 
+[2024-11-22 12:38:24] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:24] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:24] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:24] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:38:24] INFO: Verificando IVA. 
+[2024-11-22 12:38:28] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:28] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:28] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:28] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:38:28] INFO: Verificando moneda. 
+[2024-11-22 12:38:28] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:38:28] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:38:28] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:38:28] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:38:28] INFO: Verificando IVA. 
+[2024-11-22 12:50:01] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:50:01] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:50:01] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:50:01] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:50:01] INFO: Verificando moneda. 
+[2024-11-22 12:50:04] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:50:04] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:50:04] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:50:04] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:50:04] INFO: Verificando moneda. 
+[2024-11-22 12:50:04] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:50:04] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:50:04] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:50:04] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:50:04] INFO: Verificando IVA. 
+[2024-11-22 12:51:14] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:51:14] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:51:14] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:51:14] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:51:14] INFO: Verificando moneda. 
+[2024-11-22 12:51:16] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:51:16] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:51:16] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:51:16] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:51:16] INFO: Verificando moneda. 
+[2024-11-22 12:51:16] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:51:16] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:51:16] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:51:16] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:51:16] INFO: Verificando IVA. 
+[2024-11-22 12:51:53] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:51:53] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:51:53] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:51:53] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:51:53] INFO: Verificando moneda. 
+[2024-11-22 12:51:55] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:51:55] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:51:55] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:51:55] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:51:55] INFO: Verificando moneda. 
+[2024-11-22 12:51:55] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:51:55] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:51:55] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:51:55] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:51:55] INFO: Verificando IVA. 
+[2024-11-22 12:52:16] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:52:16] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:52:16] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:52:16] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:52:16] INFO: Verificando moneda. 
+[2024-11-22 12:52:19] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:52:19] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:52:19] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:52:19] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:52:19] INFO: Verificando moneda. 
+[2024-11-22 12:52:19] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:52:19] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:52:19] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:52:19] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:52:19] INFO: Verificando IVA. 
+[2024-11-22 12:52:48] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:52:48] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:52:48] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:52:48] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:52:48] INFO: Verificando moneda. 
+[2024-11-22 12:52:50] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:52:50] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:52:50] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:52:50] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:52:50] INFO: Verificando moneda. 
+[2024-11-22 12:52:50] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:52:50] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:52:50] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:52:50] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 12:52:50] INFO: Verificando IVA. 
+[2024-11-22 12:53:47] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:53:47] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:53:47] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:53:47] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:53:47] INFO: Verificando moneda. 
+[2024-11-22 12:58:14] INFO: Modelo cargado: Parametro 
+[2024-11-22 12:58:14] INFO: Controlador cargado: Parametro 
+[2024-11-22 12:58:14] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 12:58:14] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 12:58:14] INFO: Verificando moneda. 
+[2024-11-22 06:58:16] WARNING: Error de PHP: require_once(C:\xampp\htdocs\inventory\tienda1\controller/../../logger.php): Failed to open stream: No such file or directory {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3}
+[2024-11-22 06:58:16] CRITICAL: Excepción no controlada: Failed opening required 'C:\xampp\htdocs\inventory\tienda1\controller/../../logger.php' (include_path='C:\xampp\php\PEAR') {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(16): require_once()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(3): {closure}('Cotizacion')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#4 {main}"}
+[2024-11-22 07:00:03] WARNING: Error de PHP: require_once(C:\xampp\htdocs\inventory\tienda1\controller/../../logger.php): Failed to open stream: No such file or directory {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3}
+[2024-11-22 07:00:03] CRITICAL: Excepción no controlada: Failed opening required 'C:\xampp\htdocs\inventory\tienda1\controller/../../logger.php' (include_path='C:\xampp\php\PEAR') {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(16): require_once()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(3): {closure}('Cotizacion')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#4 {main}"}
+[2024-11-22 07:00:31] WARNING: Error de PHP: require_once(../../logger.php): Failed to open stream: No such file or directory {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3}
+[2024-11-22 07:00:31] CRITICAL: Excepción no controlada: Failed opening required '../../logger.php' (include_path='C:\xampp\php\PEAR') {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(16): require_once()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(3): {closure}('Cotizacion')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#4 {main}"}
+[2024-11-22 07:01:09] CRITICAL: Excepción no controlada: Call to a member function info() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":111,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:01:10] CRITICAL: Excepción no controlada: Call to a member function info() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":111,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:01:57] CRITICAL: Excepción no controlada: Non-static method CotizacionModel::Count_Cotizaciones() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":42,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:01:58] CRITICAL: Excepción no controlada: Non-static method CotizacionModel::Count_Cotizaciones() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":42,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:02:05] WARNING: Error de PHP: require_once(C:\xampp\htdocs\inventory\tienda1\controller/../../logger.php): Failed to open stream: No such file or directory {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3}
+[2024-11-22 07:02:05] CRITICAL: Excepción no controlada: Failed opening required 'C:\xampp\htdocs\inventory\tienda1\controller/../../logger.php' (include_path='C:\xampp\php\PEAR') {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":3,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(16): require_once()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(3): {closure}('Cotizacion')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#4 {main}"}
+[2024-11-22 07:06:51] CRITICAL: Excepción no controlada: Call to a member function info() on null {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":107,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:07:11] CRITICAL: Excepción no controlada: Non-static method CotizacionModel::Count_Cotizaciones() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":42,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:07:26] CRITICAL: Excepción no controlada: Non-static method CotizacionModel::Count_Cotizaciones() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":42,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:10:42] CRITICAL: Excepción no controlada: Non-static method CotizacionModel::Count_Cotizaciones() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cotizacion_controller.php","line":73,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cotizaciones.vw.php(4): Cotizacion->Count_Cotizaciones('', '')
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 13:20:43] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:20:43] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:20:43] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:20:43] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:20:43] INFO: Verificando moneda. 
+[2024-11-22 13:20:47] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:20:47] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:20:47] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:20:47] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:20:47] INFO: Verificando moneda. 
+[2024-11-22 13:20:47] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:20:47] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:20:47] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:20:47] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 13:20:47] INFO: Verificando IVA. 
+[2024-11-22 07:21:15] CRITICAL: Excepción no controlada: Non-static method ClienteModel::Listar_Clientes() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cliente_controller.php","line":7,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cliente.vw.php(58): Cliente->Listar_Clientes()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:21:21] CRITICAL: Excepción no controlada: Non-static method ClienteModel::Listar_Clientes() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cliente_controller.php","line":7,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cliente.vw.php(58): Cliente->Listar_Clientes()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 07:21:23] CRITICAL: Excepción no controlada: Non-static method ClienteModel::Listar_Clientes() cannot be called statically {"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\controller\\Cliente_controller.php","line":7,"trace":"#0 C:\\xampp\\htdocs\\inventory\\tienda1\\view\\cliente.vw.php(58): Cliente->Listar_Clientes()
+#1 C:\\xampp\\htdocs\\inventory\\tienda1\\layout\\general.lyt.php(196): require('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\\inventory\\tienda1\\index.php(52): require_once('C:\\\\xampp\\\\htdocs...')
+#3 {main}"}
+[2024-11-22 13:25:10] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:25:10] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:25:10] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:25:10] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:25:10] INFO: Verificando moneda. 
+[2024-11-22 13:25:12] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:25:12] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:25:12] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:25:12] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:25:12] INFO: Verificando moneda. 
+[2024-11-22 13:25:12] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:25:12] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:25:12] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:25:12] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 13:25:12] INFO: Verificando IVA. 
+[2024-11-22 13:26:27] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:26:27] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:26:27] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:26:27] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:26:27] INFO: Verificando moneda. 
+[2024-11-22 13:26:27] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:26:27] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:26:27] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:26:27] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 13:26:27] INFO: Verificando IVA. 
+[2024-11-22 13:26:46] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:26:46] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:26:46] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:26:46] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:26:46] INFO: Verificando moneda. 
+[2024-11-22 13:26:53] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:26:53] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:26:53] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:26:53] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:26:53] INFO: Verificando moneda. 
+[2024-11-22 13:26:53] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:26:53] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:26:53] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:26:53] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 13:26:53] INFO: Verificando IVA. 
+[2024-11-22 13:28:10] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:28:10] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:28:10] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:28:10] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:28:10] INFO: Verificando moneda. 
+[2024-11-22 13:28:12] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:28:12] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:28:12] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:28:12] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 13:28:12] INFO: Verificando moneda. 
+[2024-11-22 13:28:12] INFO: Modelo cargado: Parametro 
+[2024-11-22 13:28:12] INFO: Controlador cargado: Parametro 
+[2024-11-22 13:28:12] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 13:28:12] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 13:28:12] INFO: Verificando IVA. 
+[2024-11-22 19:46:41] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:46:41] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:46:41] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:46:41] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:46:41] INFO: Verificando moneda. 
+[2024-11-22 19:46:45] INFO: Modelo cargado: Producto 
+[2024-11-22 19:46:45] INFO: Controlador cargado: Producto 
+[2024-11-22 19:46:45] INFO: Instancia de la clase Producto creada. 
+[2024-11-22 19:46:45] INFO: Término de búsqueda recibido. {"term":"A"}
+[2024-11-22 19:46:46] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:46:46] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:46:46] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:46:46] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:46:46] INFO: Verificando moneda. 
+[2024-11-22 19:46:46] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:46:46] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:46:46] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:46:46] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 19:46:46] INFO: Verificando IVA. 
+[2024-11-22 19:47:04] INFO: Inicio de la conversión de número a letras {"numero":"39.03","femenino":false,"decimales":true}
+[2024-11-22 19:47:04] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
+[2024-11-22 19:47:04] INFO: Conversión completada exitosamente {"resultado":"Cientos treinta y nueve 03/100"}
+[2024-11-22 19:47:05] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:47:05] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:47:05] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:47:05] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:47:05] INFO: Verificando moneda. 
+[2024-11-22 19:48:30] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:48:30] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:48:30] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:48:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:48:30] INFO: Verificando moneda. 
+[2024-11-22 19:48:32] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:48:32] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:48:32] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:48:32] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:48:32] INFO: Verificando moneda. 
+[2024-11-22 19:48:32] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:48:32] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:48:32] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:48:32] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 19:48:32] INFO: Verificando IVA. 
+[2024-11-22 19:48:45] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:48:45] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:48:45] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:48:45] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:48:45] INFO: Verificando moneda. 
+[2024-11-22 19:48:47] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:48:47] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:48:47] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:48:47] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:48:47] INFO: Verificando moneda. 
+[2024-11-22 19:48:47] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:48:47] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:48:47] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:48:47] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 19:48:47] INFO: Verificando IVA. 
+[2024-11-22 19:49:07] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
+[2024-11-22 19:49:07] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
+[2024-11-22 19:49:07] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
+[2024-11-22 19:49:08] INFO: Modelo cargado: Parametro 
+[2024-11-22 19:49:08] INFO: Controlador cargado: Parametro 
+[2024-11-22 19:49:08] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 19:49:08] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 19:49:08] INFO: Verificando moneda. 
+[2024-11-22 20:01:20] INFO: Modelo cargado: Parametro 
+[2024-11-22 20:01:20] INFO: Controlador cargado: Parametro 
+[2024-11-22 20:01:20] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 20:01:20] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 20:01:20] INFO: Verificando moneda. 
+[2024-11-22 20:01:23] INFO: Modelo cargado: Parametro 
+[2024-11-22 20:01:23] INFO: Controlador cargado: Parametro 
+[2024-11-22 20:01:23] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 20:01:23] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-22 20:01:23] INFO: Verificando moneda. 
+[2024-11-22 20:01:23] INFO: Modelo cargado: Parametro 
+[2024-11-22 20:01:23] INFO: Controlador cargado: Parametro 
+[2024-11-22 20:01:23] INFO: Instancia de la clase Parametro creada. 
+[2024-11-22 20:01:23] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-22 20:01:23] INFO: Verificando IVA. 

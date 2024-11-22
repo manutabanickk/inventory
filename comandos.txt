@@ -1,2 +1,44 @@
 
 comando para ver el log en tiempo real|   Get-Content logs\application.log -Wait
+
+
+
+require_once __DIR__ . '/../../logger.php'; // Importa el logger global
+
+// Instancia del logger global
+$logger = AppLogger::getLogger();
+
+
+ if (file_exists($model)) {
+        require_once($model);
+        $logger->info("Modelo cargado: $className");
+    } else {
+        $logger->error("El archivo del modelo no existe.", ['file' => $model]);
+        die(json_encode(["error" => "El archivo del modelo no existe."]));
+    }
+
+    if (file_exists($controller)) {
+        require_once($controller);
+        $logger->info("Controlador cargado: $className");
+    } else {
+        $logger->error("El archivo del controlador no existe.", ['file' => $controller]);
+        die(json_encode(["error" => "El archivo del controlador no existe."]));
+    }
+});
+
+try {
+    $funcion = new Parametro();
+    $logger->info("Instancia de la clase Parametro creada.");
+} catch (Exception $e) {
+    $logger->error("Error al instanciar la clase Parametro: " . $e->getMessage(), [
+        'file' => $e->getFile(),
+        'line' => $e->getLine(),
+        'trace' => $e->getTraceAsString(),
+    ]);
+    die(json_encode(["error" => "Error interno al inicializar el sistema."]));
+}
+
+// Manejo de solicitudes GET
+if (!empty($_GET)) {
+    $criterio = isset($_GET['criterio']) ? $_GET['criterio'] : '';
+    $logger->info("Solicitud GET recibida.", ['criterio' => $criterio]);

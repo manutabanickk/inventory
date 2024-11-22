@@ -835,141 +835,79 @@ $.getJSON('web/ajax/ajxparametro.php?criterio=moneda',function(data){
 //---------************* Enviar datos y guardar compra
 
 
-function enviar_data(){
+function enviar_data() {
+  let i = 0;
+  let StringDatos = "";
+  const proceso = "Generar";
+  const pagado = $("#chkPagado").is(":checked") ? 1 : 0;
+  const comprobante = $("#cbCompro").val();
+  const idcliente = $("#cbCliente").val();
+  const a_nombre = $("#cbCliente option:selected").text();
+  const tipo_entrega = $("#cbEntrega").val();
+  const sumas = parseFloat($("#sumas").text()) || 0;
+  const iva = parseFloat($("#iva").text()) || 0;
+  const exento = parseFloat($("#exentas").text()) || 0;
+  const retenido = parseFloat($("#ivaretenido").text()) || 0;
+  const descuentos = parseFloat($("#descuentos").text()) || 0;
+  const total = parseFloat($("#total").text()) || 0;
 
-  var i=0;
-  var StringDatos="";
-  var proceso = 'Generar';
-  var pagado = $('#chkPagado').is(':checked') ? 1 : 0;
-  var comprobante = $("#cbCompro").val();
-  var idcliente = $("#cbCliente").val();
-  var a_nombre = $("#cbCliente option:selected").text();
-  var tipo_entrega = $('#cbEntrega').val();
-  var sumas = $("#sumas").text();
-  var iva = $("#iva").text();
-  var exento = $("#exentas").text();
-  var retenido = $("#ivaretenido").text();
-  var descuentos = $("#descuentos").text();
-  var cambio = $("#txtCambio").val();
-  var total = $("#total").text();
+  // Validación principal del total
+  if (total >= 0) {
+      swal("Imposible", "No se puede registrar unaaaaa", "warning");
+      return;
+  }
 
-  var efectivo = $("#txtMonto").val();
-  var pago_tarjeta = $("#txtMontoTar").val();
-  var numero_tarjeta = $("#txtNoTarjeta").val();
-  var tarjeta_habiente = $("#txtHabiente").val();
+  // Recorrer la tabla de detalles y procesar cada fila
+  $("#tbldetalle tbody tr").each(function () {
+      let campo0 = $(this).find("td:eq(0)").text().trim() || "";
+      let cantidad = parseFloat($(this).find("#tblcant").val()) || 0;
+      let precio_unitario = parseFloat($(this).find(".select-precio-venta").val()) || 0;
+      let exentos = parseFloat($(this).find("td:eq(5)").text()) || 0;
+      let descuento = parseFloat($(this).find("#tbldesc").val()) || 0;
+      let importe = cantidad * precio_unitario;
 
+      // Validar cada fila antes de incluirla
+      if (campo0 && cantidad > 0 && !isNaN(importe)) {
+          StringDatos += `${campo0}|${cantidad}|${precio_unitario}|${exentos}|${descuento}|SI|${importe}#`;
+          i++;
+      }
+  });
 
+  // Validación de detalles
+  if (StringDatos === "") {
+      swal("Error", "No se encontraron productos válidos para registrar.", "error");
+      return;
+  }
 
-  var cantidad = 0;
-  var precio_unitario = 0;
-  var ventas_nosujetas = 0;
-  var exentos = 0;
-  var importe = 0;
-  var descuento = 0;
-  var fecha_vence = "";
-  var disponible = "";
+  // Construir el string con los datos para enviar
+  const dataString = `&stringdatos=${StringDatos}&cuantos=${i}&tipo_entrega=${tipo_entrega}&idcliente=${idcliente}&sumas=${sumas}&iva=${iva}&a_nombre=${a_nombre}&retenido=${retenido}&exento=${exento}&descuento=${descuentos}&total=${total}&pagado=${pagado}&proceso=${proceso}`;
 
-
-
-    $("#tbldetalle tbody tr").each(function (index)
-        {
-            var campo1, campo2, campo3, campo4, campo5, campo6, campo7, campo8;
-            $(this).children("td").each(function (index2)
-            {
-                switch (index2)
-                {
-
-                    case 0:  campo0 = $(this).text();
-                             break;
-
-                    case 1:  campo1 = $(this).text();
-                             break;
-
-                    case 2:  campo2 = $(this).text();
-                             disponible = campo2;
-                             break;
-
-                    case 3:  campo3 = $(this).find("#tblcant").val();
-                             cantidad = parseFloat(campo3);
-                             break;
-
-                    case 4:  campo4 = $(this).find('.select-precio-venta').val();
-                             precio_unitario  = parseFloat(campo4);
-                             break;
-
-                    case 5: campo5 = $(this).text();
-                            exentos = parseFloat(campo5);
-                            break;
-
-                    case 6:  campo6 = $(this).find("#tbldesc").val();
-                             descuento = parseFloat(campo6);
-                             break;
-
-                    case 7:  campo7 = campo3 * campo4;
-                             importe = parseFloat(campo7);
-                             $(this).text(campo7.toFixed(2));
-                             break;
-
-                }
-              //  $(this).css("background-color", "#ECF8E0");
-            })
-
-        if(campo0!=""|| campo0==undefined || isNaN(campo0)==false && cantidad > 0){
-        StringDatos+=campo0+"|"+cantidad+"|"+precio_unitario+"|"+exentos+"|"+descuento+"|"+disponible+"|"+importe+"#";
-        i=i+1;
-        }
-
-     })
-
-
-
-        var dataString='&stringdatos='+StringDatos+'&cuantos='+i;
-        dataString+='&tipo_entrega='+tipo_entrega+'&idcliente='+idcliente+'&sumas='+sumas+'&iva='+iva+'&a_nombre='+a_nombre;
-        dataString+='&retenido='+retenido+'&exento='+exento+'&descuento='+descuentos+'&total='+total+'&pagado='+pagado+'&proceso='+proceso;
-
-        //console.log(dataString);
-
-      if(total > 0.00){
-
-            $.ajax({
-
-            type:'POST',
-            url:'web/ajax/ajxcotizacion.php',
-            data: dataString,
-            cache: false,
-            dataType: 'json',
-            success: function(data){
-
-              if(data=="Validado"){
-
-                $("#btnguardar").hide();
-                $("#btncancelar").hide();
-                $('#modal_iconified_cash').modal('toggle');
-                swal("Espere un momento..");
-                window.open('reportes/Cotizacion.php?cotizacion=""',
-                'win2',
-                'status=yes,toolbar=yes,scrollbars=yes,titlebar=yes,menubar=yes,'+
-                'resizable=yes,width=800,height=1000  ,directories=no,location=no'+
-                'fullscreen=yes');
-                 location.reload();
-
-              } else {
-
-                swal('Lo sentimos, no pudimos registrar tu informacion!', "Intentalo nuevamente", "error");
-              }
-
-            },error: function() {
-
-               swal("Ups! Ocurrio un error","Algo salio mal al procesar tu peticion","error");
+  // Realizar la petición AJAX
+  $.ajax({
+      type: "POST",
+      url: "web/ajax/ajxcotizacion.php",
+      data: dataString,
+      cache: false,
+      dataType: "json",
+      success: function (data) {
+          if (data.status === "success") {
+              $("#btnguardar").hide();
+              $("#btncancelar").hide();
+              swal("Espere un momento...");
+              // Abrir el reporte de cotización en una nueva ventana
+              window.open(
+                  `reportes/Cotizacion.php?cotizacion=${data.cotizacion_id}`,
+                  "win2",
+                  "status=yes,toolbar=yes,scrollbars=yes,titlebar=yes,menubar=yes,resizable=yes,width=800,height=1000,directories=no,location=no,fullscreen=yes"
+              );
+              location.reload();
+          } else {
+              swal("Error", data.message || "No se pudo registrar la información.", "error");
           }
-
-
-        });
-
-
-        } else {
-
-           swal("Imposible","No se puede registrar una compra con valor 0.00","warning");
-
-        }
+      },
+      error: function (xhr, status, error) {
+          console.error("Error en la petición AJAX:", xhr.responseText);
+          swal("Ups! Ocurrió un error", "No se pudo procesar tu solicitud.", "error");
+      },
+  });
 }

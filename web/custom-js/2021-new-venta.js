@@ -1500,7 +1500,7 @@ function enviar_data(){
 
         } else {
 
-           swal("Imposible","No se puede registrar una compra con valor 0.00","warning");
+           swal("Imposible","No se puede registrar una compra con vaaa","warning");
 
         }
 }

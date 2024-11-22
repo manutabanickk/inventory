@@ -1,16 +1,12 @@
 <?php 
 
-spl_autoload_register(function ($className) {
-    $model = "../../model/" . $className . "_model.php";
-    $controller = "../../controller/" . $className . "_controller.php";
-
-    if (file_exists($model)) {
-        require_once($model);
-    }
-    if (file_exists($controller)) {
-        require_once($controller);
-    }
-});
+	function __autoload($className){
+		$model = "../../model/". $className ."_model.php";
+		$controller = "../../controller/". $className ."_controller.php";
+	
+		require_once($model);
+		require_once($controller);
+	}
 
 	$objCompra =  new Compra();
 
