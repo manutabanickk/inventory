@@ -1,12 +1,14 @@
 <?php
 	require('ClassTicket.php');
+	require_once __DIR__ . '/../controller/Venta_controller.php';
+
 	$idventa =  base64_decode(isset($_GET['venta']) ? $_GET['venta'] : '');
 	try
 	{
 
 		spl_autoload_register(function ($className) {
-			$model = "../../model/" . $className . "_model.php";
-			$controller = "../../controller/" . $className . "_controller.php";
+			$model = __DIR__ . "/../../model/" . $className . "_model.php";
+			$controller = __DIR__ . "/../../controller/" . $className . "_controller.php";
 		
 			if (file_exists($model)) {
 				require_once($model);
@@ -17,16 +19,21 @@
 			}
 		});
 
-
-    $objVenta = new Venta();
-
-    if($idventa == ""){
-    	$detalle = $objVenta->Imprimir_Ticket_DetalleVenta('0');
-    	$datos = $objVenta->Imprimir_Ticket_Venta('0');
-    } else {
-    	$detalle = $objVenta->Imprimir_Ticket_DetalleVenta($idventa);
-    	$datos = $objVenta->Imprimir_Ticket_Venta($idventa);
-    }
+		try {
+			$objVenta = new Venta();
+		
+			if ($idventa == "") {
+				$detalle = $objVenta->Imprimir_Ticket_DetalleVenta('0');
+				$datos = $objVenta->Imprimir_Ticket_Venta('0');
+			} else {
+				$detalle = $objVenta->Imprimir_Ticket_DetalleVenta($idventa);
+				$datos = $objVenta->Imprimir_Ticket_Venta($idventa);
+			}
+		
+			// Continuar con la generación del ticket
+		} catch (Exception $e) {
+			echo "Error: " . $e->getMessage();
+		}
 
     foreach ($datos as $row => $column) {
 

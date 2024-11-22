@@ -1,0 +1,2 @@
+
+comando para ver el log en tiempo real|   Get-Content logs\application.log -Wait

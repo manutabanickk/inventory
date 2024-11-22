@@ -1,5 +1,9 @@
 <?php
   require('fpdf/fpdf.php');
+  // Asegúrate de usar el require con la ruta correcta al controlador
+  require_once __DIR__ . '/../controller/Venta_controller.php';
+
+
   $idventa =  base64_decode(isset($_GET['venta']) ? $_GET['venta'] : '');
 
   class PDF_MC_Table extends FPDF
@@ -107,18 +111,19 @@
 
   try
   {
-	spl_autoload_register(function ($className) {
-		$model = "../../model/" . $className . "_model.php";
-		$controller = "../../controller/" . $className . "_controller.php";
-	
-		if (file_exists($model)) {
-			require_once($model);
-		}
-	
-		if (file_exists($controller)) {
-			require_once($controller);
-		}
-	});
+// Autoloader usando spl_autoload_register()
+spl_autoload_register(function ($className) {
+    $model = "/../model/" . $className . "_model.php";
+    $controller = "/../controller/" . $className . "_controller.php";
+
+    if (file_exists($model)) {
+        require_once $model;
+    }
+
+    if (file_exists($controller)) {
+        require_once $controller;
+    }
+});
 
     $objVenta = new Venta();
 
