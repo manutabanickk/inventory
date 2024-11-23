@@ -5,8 +5,8 @@
   try
   {
     spl_autoload_register(function ($className) {
-      $model = "../../model/" . $className . "_model.php";
-      $controller = "../../controller/" . $className . "_controller.php";
+      $model = __DIR__ . "/../model/" . $className . "_model.php";
+      $controller = __DIR__ . "/../controller/" . $className . "_controller.php";
   
       if (file_exists($model)) {
           require_once($model);

@@ -852,10 +852,11 @@ function enviar_data() {
   const total = parseFloat($("#total").text()) || 0;
 
   // Validación principal del total
-  if (total >= 0) {
-      swal("Imposible", "No se puede registrar unaaaaa", "warning");
-      return;
-  }
+  if (total <= 0) {
+    swal("Imposible", "No se puede registrar una compra con valor 0.00", "warning");
+    return;
+}
+
 
   // Recorrer la tabla de detalles y procesar cada fila
   $("#tbldetalle tbody tr").each(function () {

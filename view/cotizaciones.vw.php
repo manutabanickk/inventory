@@ -180,7 +180,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h5 class="modal-title"></i> &nbsp; <span class="title-form text-uppercase">Detalle de Cotizacion</span></h5>
+					<h5 class="modal-title"></i> &nbsp; <span class="title-form text-uppercase"></span></h5>
 				</div>
 
 		        <form role="form" autocomplete="off" class="form-validate-jquery" id="frmModal">

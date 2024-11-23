@@ -1,17 +1,24 @@
 <?php
 
-require_once __DIR__ . '/../model/Cotizacion_model.php'; // Asegúrate de que la ruta sea correcta
+// Asegúrate de que la ruta al modelo es correcta
+require_once __DIR__ . '/../model/Cotizacion_model.php'; 
 
 class Cotizacion
 {
     private $cotizacionModel;
 
+    // Constructor para inicializar el modelo
     public function __construct()
     {
+        // Verifica que la clase CotizacionModel esté correctamente definida
+        if (!class_exists('CotizacionModel')) {
+            throw new Exception("La clase 'CotizacionModel' no está definida o no fue incluida correctamente.");
+        }
+
         $this->cotizacionModel = new CotizacionModel(); // Instancia del modelo para manejar los datos
     }
 
-    // Métodos para gestionar cotizaciones y reportes
+    // Métodos del controlador
     public function Autocomplete_Producto($search)
     {
         return $this->cotizacionModel->Autocomplete_Producto($search);

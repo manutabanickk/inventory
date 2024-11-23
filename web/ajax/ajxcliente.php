@@ -1,14 +1,17 @@
 <?php
 
-function autoloadClasses($className){
-    $model = "../model/". $className ."_model.php";
-    $controller = "../controller/". $className ."_controller.php";
+spl_autoload_register(function ($className) {
+    $model = "../../model/" . $className . "_model.php";
+    $controller = "../../controller/" . $className . "_controller.php";
 
-    require_once($model);
-    require_once($controller);
-}
+    if (file_exists($model)) {
+        require_once($model);
+    }
 
-spl_autoload_register('autoloadClasses');
+    if (file_exists($controller)) {
+        require_once($controller);
+    }
+});
 	$funcion = new Cliente();
 
 	if(!empty($_GET)){
