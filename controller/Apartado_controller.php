@@ -1,74 +1,84 @@
 <?php
 
-require_once __DIR__ . '/../model/Apartado_model.php'; // Asegúrate de que la ruta sea correcta
+
 
 class Apartado
 {
-    private $model;
-
-    public function __construct()
-    {
-        $this->model = new ApartadoModel(); // Crear instancia del modelo
-    }
-
     public function Ver_Moneda_Reporte()
     {
-        return $this->model->Ver_Moneda_Reporte();
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Ver_Moneda_Reporte();
+        return $filas;
     }
 
     public function Listar_Apartados($criterio, $date, $date2, $estado)
     {
-        return $this->model->Listar_Apartados($criterio, $date, $date2, $estado);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Listar_Apartados($criterio, $date, $date2, $estado);
+        return $filas;
     }
 
     public function Listar_Apartados_Totales($criterio, $date, $date2, $estado)
     {
-        return $this->model->Listar_Apartados_Totales($criterio, $date, $date2, $estado);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Listar_Apartados_Totales($criterio, $date, $date2, $estado);
+        return $filas;
     }
 
     public function Listar_Apartados_Detalle($criterio, $date, $date2, $estado)
     {
-        return $this->model->Listar_Apartados_Detalle($criterio, $date, $date2, $estado);
-    }
-
-    public function Imprimir_Ticket_DetalleApartado($idApartado)
-    {
-        return $this->model->Imprimir_Ticket_DetalleApartado($idApartado);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Listar_Apartados_Detalle($criterio, $date, $date2, $estado);
+        return $filas;
     }
 
     public function Imprimir_Ticket_Apartado($idApartado)
     {
-        return $this->model->Imprimir_Ticket_Apartado($idApartado);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Imprimir_Ticket_Apartado($idApartado);
+        return $filas;
+    }
+
+    public function Imprimir_Ticket_DetalleApartado($idApartado)
+    {
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Imprimir_Ticket_DetalleApartado($idApartado);
+        return $filas;
     }
 
     public function Listar_Detalle($idApartado)
     {
-        return $this->model->Listar_Detalle($idApartado);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Listar_Detalle($idApartado);
+        return $filas;
     }
 
     public function Listar_Info($idApartado)
     {
-        return $this->model->Listar_Info($idApartado);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Listar_Info($idApartado);
+        return $filas;
     }
 
     public function Count_Apartados($criterio, $date, $date2)
     {
-        return $this->model->Count_Apartados($criterio, $date, $date2);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Count_Apartados($criterio, $date, $date2);
+        return $filas;
     }
 
     public function Listar_Clientes()
     {
-        return $this->model->Listar_Clientes();
-    }
-
-    public function Listar_Comprobantes()
-    {
-        return $this->model->Listar_Comprobantes();
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Listar_Clientes();
+        return $filas;
     }
 
     public function Autocomplete_Producto($search)
     {
-        return $this->model->Autocomplete_Producto($search);
+        $modelo = new ApartadoModel();
+        $filas = $modelo->Autocomplete_Producto($search);
+        return $filas;
     }
 
     public function Insertar_Apartado(
@@ -85,7 +95,8 @@ class Apartado
         $idcliente,
         $idusuario
     ) {
-        return $this->model->Insertar_Apartado(
+        $modelo = new ApartadoModel();
+        $cmd = $modelo->Insertar_Apartado(
             $fecha_limite_retiro,
             $sumas,
             $iva,
@@ -99,6 +110,29 @@ class Apartado
             $idcliente,
             $idusuario
         );
+        return $cmd;
+    }
+
+    public function Insertar_DetalleApartado(
+        $idproducto,
+        $cantidad,
+        $precio_unitario,
+        $exento,
+        $descuento,
+        $fecha_vence,
+        $importe
+    ) {
+        $modelo = new ApartadoModel();
+        $cmd = $modelo->Insertar_DetalleApartado(
+            $idproducto,
+            $cantidad,
+            $precio_unitario,
+            $exento,
+            $descuento,
+            $fecha_vence,
+            $importe
+        );
+        return $cmd;
     }
 
     public function Insertar_Venta(
@@ -113,7 +147,8 @@ class Apartado
         $idcliente,
         $idusuario
     ) {
-        return $this->model->Insertar_Venta(
+        $modelo = new ApartadoModel();
+        $cmd = $modelo->Insertar_Venta(
             $idapartado,
             $tipo_pago,
             $tipo_comprobante,
@@ -125,32 +160,14 @@ class Apartado
             $idcliente,
             $idusuario
         );
-    }
-
-    public function Insertar_DetalleApartado(
-        $idproducto,
-        $cantidad,
-        $precio_unitario,
-        $exento,
-        $descuento,
-        $fecha_vence,
-        $importe
-    ) {
-        return $this->model->Insertar_DetalleApartado(
-            $idproducto,
-            $cantidad,
-            $precio_unitario,
-            $exento,
-            $descuento,
-            $fecha_vence,
-            $importe
-        );
+        return $cmd;
     }
 
     public function Anular_Apartado($idApartado)
     {
-        return $this->model->Anular_Apartado($idApartado);
+        $modelo = new ApartadoModel();
+        $cmd = $modelo->Anular_Apartado($idApartado);
+        return $cmd;
     }
 }
-
 ?>

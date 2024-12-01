@@ -1,544 +1,312 @@
-[2024-11-23 14:44:25] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:44:25] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:44:25] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:44:25] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 14:44:25] INFO: Verificando moneda. 
-[2024-11-23 14:44:27] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:44:27] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:44:27] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:44:27] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 14:44:27] INFO: Verificando moneda. 
-[2024-11-23 14:44:27] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:44:27] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:44:27] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:44:27] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 14:44:27] INFO: Verificando IVA. 
-[2024-11-23 14:44:32] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 14:44:32] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 14:44:32] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 14:44:32] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 14:44:32] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-23 14:44:32] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
-[2024-11-23 14:44:32] INFO: Generando cotización. {"datos_generales":{"a_nombre":"CLIENTE UNICO","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 14:44:32] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key 1 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key 2 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key 3 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key 4 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key 5 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:44:32] WARNING: Error de PHP: Undefined array key 6 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:44:32] WARNING: Error de PHP: strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated {"severity":8192,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":94}
-[2024-11-23 14:44:32] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"","cantidad":null,"importe":null}}
-[2024-11-23 14:48:34] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 14:48:34] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 14:48:34] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 14:48:34] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 14:48:34] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-23 14:48:34] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
-[2024-11-23 14:48:34] INFO: Generando cotización. {"datos_generales":{"a_nombre":"CLIENTE UNICO","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 14:48:34] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key 1 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key 2 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key 3 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key 4 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key 5 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:48:34] WARNING: Error de PHP: Undefined array key 6 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":93}
-[2024-11-23 14:48:34] WARNING: Error de PHP: strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated {"severity":8192,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\web\\ajax\\ajxcotizacion.php","line":94}
-[2024-11-23 14:48:34] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"","cantidad":null,"importe":null}}
-[2024-11-23 14:54:51] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:54:51] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:54:51] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:54:51] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 14:54:51] INFO: Verificando moneda. 
-[2024-11-23 14:54:58] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:54:58] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:54:58] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:54:58] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 14:54:58] INFO: Verificando moneda. 
-[2024-11-23 14:54:58] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:54:58] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:54:58] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:54:58] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 14:54:58] INFO: Verificando IVA. 
-[2024-11-23 14:55:04] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 14:55:04] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 14:55:04] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 14:55:04] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 14:55:04] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-23 14:55:04] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":162}
-[2024-11-23 14:55:04] INFO: Conversión completada exitosamente {"resultado":"Cientos seis mil seiscientos sesenta y seis 00/100"}
-[2024-11-23 14:55:04] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 14:55:04] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 14:55:04] WARNING: Detalle de cotización inválido. {"dato":""}
-[2024-11-23 14:56:55] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 14:56:55] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 14:56:55] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 14:56:55] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 14:56:55] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":153}
-[2024-11-23 14:56:55] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 14:56:55] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 14:56:55] WARNING: Detalle de cotización inválido. {"dato":""}
-[2024-11-23 14:57:02] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:57:02] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:57:02] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:57:02] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 14:57:02] INFO: Verificando moneda. 
-[2024-11-23 14:57:04] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:57:04] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:57:04] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:57:04] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 14:57:04] INFO: Verificando moneda. 
-[2024-11-23 14:57:04] INFO: Modelo cargado: Parametro 
-[2024-11-23 14:57:04] INFO: Controlador cargado: Parametro 
-[2024-11-23 14:57:04] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 14:57:04] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 14:57:04] INFO: Verificando IVA. 
-[2024-11-23 14:57:07] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 14:57:07] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 14:57:07] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 14:57:07] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 14:57:07] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":153}
-[2024-11-23 14:57:07] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 14:57:07] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 14:57:07] WARNING: Detalle de cotización inválido. {"dato":""}
-[2024-11-23 15:03:59] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:03:59] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:03:59] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:03:59] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:03:59] INFO: Verificando moneda. 
-[2024-11-23 15:04:01] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:04:01] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:04:01] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:04:01] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:04:01] INFO: Verificando moneda. 
-[2024-11-23 15:04:01] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:04:01] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:04:01] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:04:01] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:04:01] INFO: Verificando IVA. 
-[2024-11-23 15:04:06] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:04:06] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:04:06] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:04:06] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:04:06] INFO: Inicio de la conversión de número a letras {"numero":"6666.00","femenino":false,"decimales":true}
-[2024-11-23 15:04:06] INFO: Conversión completada exitosamente {"resultado":"Seiscientos sesenta y seis pesos con 00/100"}
-[2024-11-23 15:04:06] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:04:06] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:04:06] WARNING: Detalle de cotización inválido. {"dato":""}
-[2024-11-23 15:06:04] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:06:04] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:06:04] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:06:04] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:06:04] INFO: Verificando moneda. 
-[2024-11-23 15:06:05] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:06:05] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:06:05] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:06:05] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:06:05] INFO: Verificando moneda. 
-[2024-11-23 15:06:05] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:06:05] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:06:05] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:06:05] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:06:05] INFO: Verificando IVA. 
-[2024-11-23 15:06:10] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:06:10] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:06:10] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:06:10] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:06:10] WARNING: Error de PHP: Undefined array key " " {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":153}
-[2024-11-23 15:06:10] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:06:10] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:06:10] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:21:15] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:21:15] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:21:15] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:21:15] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:21:15] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":63}
-[2024-11-23 15:21:15] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:21:15] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:21:15] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:21:18] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:21:18] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:21:18] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:21:18] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:21:18] INFO: Verificando moneda. 
-[2024-11-23 15:21:23] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:21:23] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:21:23] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:21:23] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:21:23] INFO: Verificando moneda. 
-[2024-11-23 15:21:23] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:21:23] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:21:23] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:21:23] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:21:23] INFO: Verificando IVA. 
-[2024-11-23 15:21:27] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:21:27] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:21:27] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:21:27] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:21:27] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":63}
-[2024-11-23 15:21:27] INFO: Generando cotización. {"datos_generales":{"a_nombre":"M","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:21:27] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:21:27] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:22:34] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:22:34] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:22:34] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:22:34] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:22:34] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":63}
-[2024-11-23 15:22:34] INFO: Generando cotización. {"datos_generales":{"a_nombre":"M","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:22:34] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:22:34] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:22:37] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:22:37] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:22:37] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:22:37] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:22:37] INFO: Verificando moneda. 
-[2024-11-23 15:22:39] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:22:39] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:22:39] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:22:39] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:22:39] INFO: Verificando moneda. 
-[2024-11-23 15:22:39] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:22:39] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:22:39] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:22:39] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:22:39] INFO: Verificando IVA. 
-[2024-11-23 15:22:43] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:22:43] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:22:43] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:22:43] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:22:43] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":63}
-[2024-11-23 15:22:43] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:22:43] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:22:43] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:23:49] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:23:49] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:23:49] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:23:49] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:23:49] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":62}
-[2024-11-23 15:23:49] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:23:49] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:23:49] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:23:59] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:23:59] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:23:59] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:23:59] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:23:59] INFO: Verificando moneda. 
-[2024-11-23 15:24:00] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:24:00] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:24:00] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:24:00] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:24:00] INFO: Verificando moneda. 
-[2024-11-23 15:24:00] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:24:00] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:24:00] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:24:00] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:24:00] INFO: Verificando IVA. 
-[2024-11-23 15:24:04] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:24:04] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:24:04] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:24:04] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:24:04] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":62}
-[2024-11-23 15:24:04] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:24:04] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:24:04] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:25:21] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:25:21] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:25:21] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:25:21] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:25:21] INFO: Verificando moneda. 
-[2024-11-23 15:25:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:25:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:25:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:25:22] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:25:22] INFO: Verificando moneda. 
-[2024-11-23 15:25:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:25:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:25:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:25:22] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:25:22] INFO: Verificando IVA. 
-[2024-11-23 15:25:26] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:25:26] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:25:26] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:25:26] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:25:26] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":65}
-[2024-11-23 15:25:26] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:25:26] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:25:26] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:28:48] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:28:48] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:28:48] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:28:48] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:28:48] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":65}
-[2024-11-23 15:28:48] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:28:48] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:28:48] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:28:53] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:28:53] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:28:53] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:28:53] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:28:53] INFO: Verificando moneda. 
-[2024-11-23 15:28:56] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:28:56] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:28:56] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:28:56] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:28:56] INFO: Verificando moneda. 
-[2024-11-23 15:28:56] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:28:56] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:28:56] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:28:56] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:28:56] INFO: Verificando IVA. 
-[2024-11-23 15:29:00] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:29:00] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:29:00] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:29:00] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:29:00] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":65}
-[2024-11-23 15:29:00] INFO: Generando cotización. {"datos_generales":{"a_nombre":"M","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:29:00] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:29:00] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:32:24] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:32:24] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:32:24] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:32:24] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:32:24] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":65}
-[2024-11-23 15:32:24] INFO: Generando cotización. {"datos_generales":{"a_nombre":"M","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:32:24] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:32:24] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:36:36] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:36:36] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:36:36] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:36:36] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:36:36] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":64}
-[2024-11-23 15:36:36] INFO: Generando cotización. {"datos_generales":{"a_nombre":"M","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:36:36] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:36:36] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:36:42] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:36:42] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:36:42] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:36:42] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:36:42] INFO: Verificando moneda. 
-[2024-11-23 15:36:44] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:36:44] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:36:44] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:36:44] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:36:44] INFO: Verificando moneda. 
-[2024-11-23 15:36:44] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:36:44] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:36:44] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:36:44] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:36:44] INFO: Verificando IVA. 
-[2024-11-23 15:39:14] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:39:14] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:39:14] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:39:14] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:39:14] INFO: Verificando moneda. 
-[2024-11-23 15:39:15] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:39:15] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:39:15] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:39:15] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:39:15] INFO: Verificando moneda. 
-[2024-11-23 15:39:15] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:39:15] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:39:15] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:39:15] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:39:15] INFO: Verificando IVA. 
-[2024-11-23 15:39:27] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:39:27] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:39:27] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:39:27] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:39:27] INFO: Verificando moneda. 
-[2024-11-23 15:39:29] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:39:29] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:39:29] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:39:29] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:39:29] INFO: Verificando moneda. 
-[2024-11-23 15:39:29] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:39:29] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:39:29] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:39:29] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:39:29] INFO: Verificando IVA. 
-[2024-11-23 15:39:32] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:39:32] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:39:32] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:39:32] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:39:32] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":64}
-[2024-11-23 15:39:32] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:39:32] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:39:32] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:48:42] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:48:42] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:48:42] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:48:42] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:48:42] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":64}
-[2024-11-23 15:48:42] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:48:42] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:48:42] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:49:06] INFO: modelo cargado. {"ruta":"../../model/Cotizacion_model.php"}
-[2024-11-23 15:49:06] INFO: controlador cargado. {"ruta":"../../controller/Cotizacion_controller.php"}
-[2024-11-23 15:49:06] INFO: Instancia de la clase Cotizacion creada correctamente. 
-[2024-11-23 15:49:06] INFO: Solicitud POST recibida. {"proceso":"Generar"}
-[2024-11-23 15:49:06] WARNING: Error de PHP: Undefined array key 0 {"severity":2,"file":"C:\\xampp\\htdocs\\inventory\\tienda1\\config\\money_string.php","line":64}
-[2024-11-23 15:49:06] INFO: Generando cotización. {"datos_generales":{"a_nombre":"SERVICETEC E.I.R.L","tipo_pago":"AL CONTADO","entrega":"INMEDIATA","total":"6666.00"},"usuario":1}
-[2024-11-23 15:49:06] INFO: Agregando detalle a la cotización. {"detalle":{"idproducto":"130","cantidad":"1","importe":"6666"}}
-[2024-11-23 15:49:06] WARNING: Detalle de cotización vacío o inválido. {"dato":""}
-[2024-11-23 15:54:20] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:54:20] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:54:20] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:54:20] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:54:20] INFO: Verificando moneda. 
-[2024-11-23 15:54:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:54:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:54:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:54:22] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:54:22] INFO: Verificando moneda. 
-[2024-11-23 15:54:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:54:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:54:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:54:22] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:54:22] INFO: Verificando IVA. 
-[2024-11-23 15:55:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:55:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:55:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:55:22] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:55:22] INFO: Verificando moneda. 
-[2024-11-23 15:55:24] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:55:24] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:55:24] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:55:24] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:55:24] INFO: Verificando moneda. 
-[2024-11-23 15:55:24] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:55:24] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:55:24] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:55:24] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:55:24] INFO: Verificando IVA. 
-[2024-11-23 15:56:49] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:56:49] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:56:49] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:56:49] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:56:49] INFO: Verificando moneda. 
-[2024-11-23 15:56:51] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:56:51] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:56:51] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:56:51] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:56:51] INFO: Verificando moneda. 
-[2024-11-23 15:56:51] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:56:51] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:56:51] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:56:51] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 15:56:51] INFO: Verificando IVA. 
-[2024-11-23 15:57:30] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:57:30] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:57:30] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:57:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:57:30] INFO: Verificando moneda. 
-[2024-11-23 15:57:35] INFO: Modelo cargado: Parametro 
-[2024-11-23 15:57:35] INFO: Controlador cargado: Parametro 
-[2024-11-23 15:57:35] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 15:57:35] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 15:57:35] INFO: Verificando moneda. 
-[2024-11-23 16:03:52] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:03:52] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:03:52] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:03:52] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:03:52] INFO: Verificando moneda. 
-[2024-11-23 16:03:53] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:03:53] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:03:53] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:03:53] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:03:53] INFO: Verificando moneda. 
-[2024-11-23 16:03:53] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:03:53] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:03:53] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:03:53] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 16:03:53] INFO: Verificando IVA. 
-[2024-11-23 16:03:57] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:03:57] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:03:57] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:03:57] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:03:57] INFO: Verificando moneda. 
-[2024-11-23 16:27:30] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:27:30] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:27:30] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:27:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:27:30] INFO: Verificando moneda. 
-[2024-11-23 16:27:32] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:27:32] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:27:32] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:27:32] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:27:32] INFO: Verificando moneda. 
-[2024-11-23 16:27:32] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:27:32] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:27:32] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:27:32] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 16:27:32] INFO: Verificando IVA. 
-[2024-11-23 16:33:18] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:33:18] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:33:18] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:33:18] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:33:18] INFO: Verificando moneda. 
-[2024-11-23 16:33:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:33:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:33:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:33:22] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:33:22] INFO: Verificando moneda. 
-[2024-11-23 16:33:22] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:33:22] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:33:22] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:33:22] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 16:33:22] INFO: Verificando IVA. 
-[2024-11-23 16:35:11] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:35:11] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:35:11] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:35:11] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:35:11] INFO: Verificando moneda. 
-[2024-11-23 16:35:13] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:35:13] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:35:13] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:35:13] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:35:13] INFO: Verificando moneda. 
-[2024-11-23 16:35:13] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:35:13] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:35:13] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:35:13] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 16:35:13] INFO: Verificando IVA. 
-[2024-11-23 16:36:29] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:36:29] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:36:29] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:36:29] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:36:29] INFO: Verificando moneda. 
-[2024-11-23 16:36:30] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:36:30] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:36:30] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:36:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:36:30] INFO: Verificando moneda. 
-[2024-11-23 16:36:30] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:36:30] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:36:30] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:36:30] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 16:36:30] INFO: Verificando IVA. 
-[2024-11-23 16:36:35] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:36:35] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:36:35] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:36:35] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:36:35] INFO: Verificando moneda. 
-[2024-11-23 16:38:00] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:38:00] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:38:00] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:38:00] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:38:00] INFO: Verificando moneda. 
-[2024-11-23 16:38:01] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:38:01] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:38:01] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:38:01] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:38:01] INFO: Verificando moneda. 
-[2024-11-23 16:38:01] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:38:01] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:38:01] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:38:01] INFO: Solicitud GET recibida. {"criterio":"iva"}
-[2024-11-23 16:38:01] INFO: Verificando IVA. 
-[2024-11-23 16:38:05] INFO: Modelo cargado: Parametro 
-[2024-11-23 16:38:05] INFO: Controlador cargado: Parametro 
-[2024-11-23 16:38:05] INFO: Instancia de la clase Parametro creada. 
-[2024-11-23 16:38:05] INFO: Solicitud GET recibida. {"criterio":"moneda"}
-[2024-11-23 16:38:05] INFO: Verificando moneda. 
+[2024-11-24 18:47:07] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"66.00","restante":"-6600.00","fecha_retiro":"24/11/2024 14:45:00"}}
+[2024-11-24 18:47:07] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 14:45:00","idcliente":"2","sumas":"5649.15","total":"6666.00","stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 18:47:07] INFO: Insertando apartado {"fecha_retiro":"2024-11-24 14:45:00","idcliente":"2","total":"6666.00"}
+[2024-11-24 18:47:07] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":"1","precio_unitario":"6666","importe":"6666"}
+[2024-11-24 18:47:07] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:00:34] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:00:34] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:00:34] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:00:34] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:00:34] INFO: Verificando moneda. 
+[2024-11-24 19:00:35] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:00:35] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:00:35] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:00:35] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:00:35] INFO: Verificando moneda. 
+[2024-11-24 19:00:35] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:00:35] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:00:35] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:00:35] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:00:35] INFO: Verificando IVA. 
+[2024-11-24 19:00:50] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"55.00","restante":"-6611.00","fecha_retiro":"24/11/2024 15:00:41"}}
+[2024-11-24 19:00:50] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:00:41","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:00:50] ERROR: El monto restante no puede ser negativo. {"abonado":55.0,"total":6666.0,"restante":-6611.0}
+[2024-11-24 19:00:50] ERROR: Error al procesar el apartado {"message":"El monto restante no puede ser negativo. Verifique los valores ingresados.","trace":"#0 {main}"}
+[2024-11-24 19:01:32] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"66.00","restante":"-6600.00","fecha_retiro":"24/11/2024 15:00:41"}}
+[2024-11-24 19:01:32] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:00:41","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:01:32] ERROR: El monto restante no puede ser negativo. {"abonado":66.0,"total":6666.0,"restante":-6600.0}
+[2024-11-24 19:01:32] ERROR: Error al procesar el apartado {"message":"El monto restante no puede ser negativo. Verifique los valores ingresados.","trace":"#0 {main}"}
+[2024-11-24 19:14:17] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:14:17] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:14:17] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:14:17] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:14:17] INFO: Verificando moneda. 
+[2024-11-24 19:14:19] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:14:19] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:14:19] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:14:19] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:14:19] INFO: Verificando moneda. 
+[2024-11-24 19:14:19] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:14:19] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:14:19] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:14:19] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:14:19] INFO: Verificando IVA. 
+[2024-11-24 19:14:35] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"66","restante":"-6600.00","fecha_retiro":"24/11/2024 15:14:24"}}
+[2024-11-24 19:14:35] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:14:24","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:14:35] INFO: Cálculo del restante exitoso. {"restante":6600.0}
+[2024-11-24 19:14:35] INFO: Insertando apartado {"fecha_retiro":"2024-11-24 15:14:24","idcliente":"2","total":6666.0}
+[2024-11-24 19:14:35] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:14:35] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:14:35] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:14:38] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"66.00","restante":"-6600.00","fecha_retiro":"24/11/2024 15:14:24"}}
+[2024-11-24 19:14:38] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:14:24","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:14:38] INFO: Cálculo del restante exitoso. {"restante":6600.0}
+[2024-11-24 19:14:38] INFO: Insertando apartado {"fecha_retiro":"2024-11-24 15:14:24","idcliente":"2","total":6666.0}
+[2024-11-24 19:14:38] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:14:38] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:14:38] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:18:17] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:18:17] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:18:17] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:18:17] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:18:17] INFO: Verificando moneda. 
+[2024-11-24 19:18:18] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:18:18] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:18:18] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:18:18] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:18:18] INFO: Verificando moneda. 
+[2024-11-24 19:18:18] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:18:18] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:18:18] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:18:18] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:18:18] INFO: Verificando IVA. 
+[2024-11-24 19:18:35] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"666","restante":"-6000.00","fecha_retiro":"24/11/2024 15:18:23"}}
+[2024-11-24 19:18:35] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:18:23","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:18:35] INFO: Cálculo del restante exitoso. {"restante":6000.0}
+[2024-11-24 19:18:35] INFO: Insertando apartado {"fecha_retiro":"2024-11-24 15:18:23","idcliente":"2","total":6666.0}
+[2024-11-24 19:18:35] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:18:35] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:18:35] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:18:39] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"666.00","restante":"-6000.00","fecha_retiro":"24/11/2024 15:18:23"}}
+[2024-11-24 19:18:39] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:18:23","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:18:39] INFO: Cálculo del restante exitoso. {"restante":6000.0}
+[2024-11-24 19:18:39] INFO: Insertando apartado {"fecha_retiro":"2024-11-24 15:18:23","idcliente":"2","total":6666.0}
+[2024-11-24 19:18:39] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:18:39] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:18:39] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:18:59] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"666.00","restante":"-6000.00","fecha_retiro":"25/11/2024 15:18:23"}}
+[2024-11-24 19:18:59] INFO: Datos procesados desde POST {"fecha_retiro":"25/11/2024 15:18:23","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:18:59] INFO: Cálculo del restante exitoso. {"restante":6000.0}
+[2024-11-24 19:18:59] INFO: Insertando apartado {"fecha_retiro":"2024-11-25 15:18:23","idcliente":"2","total":6666.0}
+[2024-11-24 19:18:59] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:18:59] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:18:59] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:21:57] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:21:57] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:21:57] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:21:57] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:21:57] INFO: Verificando moneda. 
+[2024-11-24 19:21:59] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:21:59] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:21:59] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:21:59] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:21:59] INFO: Verificando moneda. 
+[2024-11-24 19:21:59] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:21:59] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:21:59] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:21:59] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:21:59] INFO: Verificando IVA. 
+[2024-11-24 19:22:07] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"undefined","restante":"undefined","fecha_retiro":"24/11/2024 15:22:04"}}
+[2024-11-24 19:22:07] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:22:04","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:22:07] ERROR: El monto abonado debe ser mayor a 0. {"abonado":0.0}
+[2024-11-24 19:22:07] ERROR: Error al procesar el apartado {"message":"El monto abonado debe ser mayor a 0.","trace":"#0 {main}"}
+[2024-11-24 19:22:19] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:22:19] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:22:19] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:22:19] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:22:19] INFO: Verificando moneda. 
+[2024-11-24 19:22:20] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:22:20] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:22:20] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:22:20] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:22:20] INFO: Verificando moneda. 
+[2024-11-24 19:22:20] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:22:20] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:22:20] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:22:20] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:22:20] INFO: Verificando IVA. 
+[2024-11-24 19:22:37] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"50.00","restante":"-6616.00","fecha_retiro":"26/11/2024 15:22:31"}}
+[2024-11-24 19:22:37] INFO: Datos procesados desde POST {"fecha_retiro":"26/11/2024 15:22:31","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:22:37] INFO: Cálculo del restante exitoso. {"restante":6616.0}
+[2024-11-24 19:22:37] INFO: Insertando apartado {"fecha_retiro":"2024-11-26 15:22:31","idcliente":"2","total":6666.0}
+[2024-11-24 19:22:37] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:22:37] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:22:37] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:23:04] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:04] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:04] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:04] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:23:04] INFO: Verificando moneda. 
+[2024-11-24 19:23:04] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:04] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:04] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:04] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:23:04] INFO: Verificando IVA. 
+[2024-11-24 19:23:06] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:06] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:06] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:06] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:23:06] INFO: Verificando moneda. 
+[2024-11-24 19:23:06] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:06] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:06] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:06] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:23:06] INFO: Verificando IVA. 
+[2024-11-24 19:23:16] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|3|6666|0|0||19998#","cuantos":"1","idcliente":"2","sumas":"16947.46","iva":"3050.54","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"19998.00","abonado":"5555.00","restante":"-14443.00","fecha_retiro":"26/11/2024 15:22:31"}}
+[2024-11-24 19:23:16] INFO: Datos procesados desde POST {"fecha_retiro":"26/11/2024 15:22:31","idcliente":"2","sumas":16947.46,"total":19998.0,"stringdatos":"130|3|6666|0|0||19998#"}
+[2024-11-24 19:23:16] INFO: Cálculo del restante exitoso. {"restante":14443.0}
+[2024-11-24 19:23:16] INFO: Insertando apartado {"fecha_retiro":"2024-11-26 15:22:31","idcliente":"2","total":19998.0}
+[2024-11-24 19:23:16] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:23:16] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":3.0,"precio_unitario":6666.0,"importe":19998.0}
+[2024-11-24 19:23:16] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:23:38] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:38] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:38] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:38] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:23:38] INFO: Verificando moneda. 
+[2024-11-24 19:23:50] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:50] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:50] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:50] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:23:50] INFO: Verificando moneda. 
+[2024-11-24 19:23:50] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:23:50] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:23:50] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:23:50] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:23:50] INFO: Verificando IVA. 
+[2024-11-24 19:24:13] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:24:13] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:24:13] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:24:13] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:24:13] INFO: Verificando moneda. 
+[2024-11-24 19:24:13] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:24:13] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:24:13] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:24:13] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:24:13] INFO: Verificando IVA. 
+[2024-11-24 19:24:16] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:24:16] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:24:16] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:24:16] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:24:16] INFO: Verificando moneda. 
+[2024-11-24 19:24:18] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:24:18] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:24:18] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:24:18] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:24:18] INFO: Verificando moneda. 
+[2024-11-24 19:24:18] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:24:18] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:24:18] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:24:18] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:24:18] INFO: Verificando IVA. 
+[2024-11-24 19:24:28] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"55.00","restante":"-6611.00","fecha_retiro":"29/11/2024 15:24:21"}}
+[2024-11-24 19:24:28] INFO: Datos procesados desde POST {"fecha_retiro":"29/11/2024 15:24:21","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:24:28] INFO: Cálculo del restante exitoso. {"restante":6611.0}
+[2024-11-24 19:24:28] INFO: Insertando apartado {"fecha_retiro":"2024-11-29 15:24:21","idcliente":"2","total":6666.0}
+[2024-11-24 19:24:28] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:24:28] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:24:28] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:34:38] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:34:38] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:34:38] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:34:38] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:34:38] INFO: Verificando moneda. 
+[2024-11-24 19:34:39] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:34:39] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:34:39] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:34:39] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:34:39] INFO: Verificando moneda. 
+[2024-11-24 19:34:39] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:34:39] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:34:39] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:34:39] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:34:39] INFO: Verificando IVA. 
+[2024-11-24 19:34:49] INFO: Inicio del procesamiento del apartado {"POST":{"stringdatos":"130|1|6666|0|0||6666#","cuantos":"1","idcliente":"2","sumas":"5649.15","iva":"1016.85","retenido":"0.00","exento":"0.00","descuento":"0.00","total":"6666.00","abonado":"5.00","restante":"-6661.00","fecha_retiro":"24/11/2024 15:34:45"}}
+[2024-11-24 19:34:49] INFO: Datos procesados desde POST {"fecha_retiro":"24/11/2024 15:34:45","idcliente":"2","sumas":5649.15,"total":6666.0,"stringdatos":"130|1|6666|0|0||6666#"}
+[2024-11-24 19:34:49] INFO: Cálculo del restante exitoso. {"restante":6661.0}
+[2024-11-24 19:34:49] INFO: Insertando apartado {"fecha_retiro":"2024-11-24 15:34:45","idcliente":"2","total":6666.0}
+[2024-11-24 19:34:49] WARNING: Campo fecha_vence vacío. Se asignará un valor predeterminado. {"idproducto":"130"}
+[2024-11-24 19:34:49] INFO: Insertando detalle del apartado {"idproducto":"130","cantidad":1.0,"precio_unitario":6666.0,"importe":6666.0}
+[2024-11-24 19:34:49] INFO: Apartado registrado correctamente. 
+[2024-11-24 19:36:31] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:36:31] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:36:31] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:36:31] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:36:31] INFO: Verificando moneda. 
+[2024-11-24 19:36:41] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:36:41] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:36:41] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:36:41] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:36:41] INFO: Verificando moneda. 
+[2024-11-24 19:36:46] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:36:46] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:36:46] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:36:46] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:36:46] INFO: Verificando moneda. 
+[2024-11-24 19:37:24] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:37:24] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:37:24] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:37:24] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:37:24] INFO: Verificando moneda. 
+[2024-11-24 19:37:24] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:37:24] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:37:24] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:37:24] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:37:24] INFO: Verificando IVA. 
+[2024-11-24 19:37:29] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:37:29] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:37:29] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:37:29] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:37:29] INFO: Verificando moneda. 
+[2024-11-24 19:41:50] INFO: Modelo cargado: Login 
+[2024-11-24 19:41:50] INFO: Controlador cargado: Login 
+[2024-11-24 19:41:50] INFO: Usuario deslogueado correctamente. 
+[2024-11-24 19:41:54] INFO: Modelo cargado: Login 
+[2024-11-24 19:41:54] INFO: Controlador cargado: Login 
+[2024-11-24 19:41:54] INFO: Intento de login {"usuario":"tienda"}
+[2024-11-24 19:41:54] WARNING: Fallo de autenticación para el usuario: tienda 
+[2024-11-24 19:41:54] INFO: Usuario autenticado correctamente. {"usuario":"tienda"}
+[2024-11-24 19:42:12] INFO: Modelo cargado: Login 
+[2024-11-24 19:42:12] INFO: Controlador cargado: Login 
+[2024-11-24 19:42:12] INFO: Usuario deslogueado correctamente. 
+[2024-11-24 19:42:14] INFO: Modelo cargado: Login 
+[2024-11-24 19:42:14] INFO: Controlador cargado: Login 
+[2024-11-24 19:42:14] INFO: Intento de login {"usuario":"admin"}
+[2024-11-24 19:42:14] WARNING: Fallo de autenticación para el usuario: admin 
+[2024-11-24 19:42:14] INFO: Usuario autenticado correctamente. {"usuario":"admin"}
+[2024-11-24 19:42:44] INFO: Modelo cargado: Login 
+[2024-11-24 19:42:44] INFO: Controlador cargado: Login 
+[2024-11-24 19:42:44] INFO: Usuario deslogueado correctamente. 
+[2024-11-24 19:42:52] INFO: Modelo cargado: Login 
+[2024-11-24 19:42:52] INFO: Controlador cargado: Login 
+[2024-11-24 19:42:52] INFO: Intento de login {"usuario":"tienda"}
+[2024-11-24 19:42:52] WARNING: Fallo de autenticación para el usuario: tienda 
+[2024-11-24 19:42:52] INFO: Usuario autenticado correctamente. {"usuario":"tienda"}
+[2024-11-24 19:43:30] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:43:30] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:43:30] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:43:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:43:30] INFO: Verificando moneda. 
+[2024-11-24 19:43:33] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:43:33] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:43:33] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:43:33] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:43:33] INFO: Verificando moneda. 
+[2024-11-24 19:43:33] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:43:33] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:43:33] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:43:33] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-11-24 19:43:33] INFO: Verificando IVA. 
+[2024-11-24 19:43:36] INFO: Modelo cargado: Parametro 
+[2024-11-24 19:43:36] INFO: Controlador cargado: Parametro 
+[2024-11-24 19:43:36] INFO: Instancia de la clase Parametro creada. 
+[2024-11-24 19:43:36] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-11-24 19:43:36] INFO: Verificando moneda. 
+[2024-11-24 19:43:48] INFO: Modelo cargado: Login 
+[2024-11-24 19:43:48] INFO: Controlador cargado: Login 
+[2024-11-24 19:43:48] INFO: Usuario deslogueado correctamente. 
+[2024-11-24 19:43:49] INFO: Modelo cargado: Login 
+[2024-11-24 19:43:49] INFO: Controlador cargado: Login 
+[2024-11-24 19:43:49] INFO: Intento de login {"usuario":"admin"}
+[2024-11-24 19:43:49] WARNING: Fallo de autenticación para el usuario: admin 
+[2024-11-24 19:43:49] INFO: Usuario autenticado correctamente. {"usuario":"admin"}

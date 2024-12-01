@@ -80,7 +80,7 @@
 
 						<!-- Ventas -->
 					 	<li>
-							<a href="#"><i class="icon-price-tags2"></i> <span>Apartados</span></a>
+							<!-- <a href="#"><i class="icon-price-tags2"></i> <span>Apartados</span></a> -->
 							<ul>
 								<li><a href="./?View=POS-A">Apartar Productos</a></li>
 								<li><a href="./?View=Apartados-Diarios">Consultar Apartados del Dia</a></li>
