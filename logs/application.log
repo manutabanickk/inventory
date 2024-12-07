@@ -310,3 +310,31 @@
 [2024-11-24 19:43:49] INFO: Intento de login {"usuario":"admin"}
 [2024-11-24 19:43:49] WARNING: Fallo de autenticación para el usuario: admin 
 [2024-11-24 19:43:49] INFO: Usuario autenticado correctamente. {"usuario":"admin"}
+[2024-12-07 14:17:10] INFO: Modelo cargado: Parametro 
+[2024-12-07 14:17:10] INFO: Controlador cargado: Parametro 
+[2024-12-07 14:17:10] INFO: Instancia de la clase Parametro creada. 
+[2024-12-07 14:17:10] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-12-07 14:17:10] INFO: Verificando moneda. 
+[2024-12-07 14:17:11] INFO: Modelo cargado: Parametro 
+[2024-12-07 14:17:11] INFO: Controlador cargado: Parametro 
+[2024-12-07 14:17:11] INFO: Instancia de la clase Parametro creada. 
+[2024-12-07 14:17:11] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-12-07 14:17:11] INFO: Verificando moneda. 
+[2024-12-07 14:17:11] INFO: Modelo cargado: Parametro 
+[2024-12-07 14:17:11] INFO: Controlador cargado: Parametro 
+[2024-12-07 14:17:11] INFO: Instancia de la clase Parametro creada. 
+[2024-12-07 14:17:11] INFO: Solicitud GET recibida. {"criterio":"iva"}
+[2024-12-07 14:17:11] INFO: Verificando IVA. 
+[2024-12-07 14:17:30] INFO: Modelo cargado: Parametro 
+[2024-12-07 14:17:30] INFO: Controlador cargado: Parametro 
+[2024-12-07 14:17:30] INFO: Instancia de la clase Parametro creada. 
+[2024-12-07 14:17:30] INFO: Solicitud GET recibida. {"criterio":"moneda"}
+[2024-12-07 14:17:30] INFO: Verificando moneda. 
+[2024-12-07 14:19:33] INFO: Modelo cargado: Login 
+[2024-12-07 14:19:33] INFO: Controlador cargado: Login 
+[2024-12-07 14:19:33] INFO: Usuario deslogueado correctamente. 
+[2024-12-07 14:19:35] INFO: Modelo cargado: Login 
+[2024-12-07 14:19:35] INFO: Controlador cargado: Login 
+[2024-12-07 14:19:35] INFO: Intento de login {"usuario":"admin"}
+[2024-12-07 14:19:35] WARNING: Fallo de autenticación para el usuario: admin 
+[2024-12-07 14:19:35] INFO: Usuario autenticado correctamente. {"usuario":"admin"}
